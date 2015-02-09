@@ -15,7 +15,13 @@
         "name": "Milu Talk",
         "screenshot": "/images/proshot-milutalk.jpg",
         "url": "http://www.milu.jp/news/notice_read.php?category=&idx=8096&page=1",
-        "desc": "A multi-platform app use to chat, send photo... It had developed to support Milu gamer, a longtime game in Japan. We use HTML5 and SocketIO. [03/2012]"
+        "desc": "A multi-platform app use to chat, send photo... It had developed to support Milu gamer. We use HTML5 and SocketIO. [03/2012]"
+    },
+    {
+        "name": "Live Streaming",
+        "screenshot": "/images/proshot-streaming.jpg",
+        "url": "http://livetogel.com",
+        "desc": "Indonesia Live Streaming System has built to stream lotto result to user. [06/2014]"
     }
 
 ]
