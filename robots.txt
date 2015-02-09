@@ -1,3 +1,5 @@
 User-agent: *
+Allow: *
 Disallow: /js/
 Disallow: /css/
+Sitemap: http://salipropham.github.io/sitemap.xml
