@@ -1,0 +1,21 @@
+[    
+    {
+        "name": "wWw.Blogit.Info",
+        "screenshot": "/images/proshot-blogit.jpg",
+        "url": "http://blogit.info",
+        "desc": "This is my blog where I can study and share my indulgence. [10/2011]"
+    },
+    {
+        "name": "GiaGia Site",
+        "screenshot": "/images/proshot-giagiasite.jpg",
+        "url": "",
+        "desc": "This is first customer, a website about health services that had built by Joomla CMS. [11/2011]"
+    },
+    {
+        "name": "Milu Talk",
+        "screenshot": "/images/proshot-milutalk.jpg",
+        "url": "http://www.milu.jp/news/notice_read.php?category=&idx=8096&page=1",
+        "desc": "A multi-platform app use to chat, send photo... It had developed to support Milu gamer, a longtime game in Japan. We use HTML5 and SocketIO. [03/2012]"
+    }
+
+]

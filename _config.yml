@@ -1,0 +1,23 @@
+# Where things are
+source:      .
+destination: ./_site
+
+# Handling Reading
+keep_files:   [".git", ".idea", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,md"
+
+# Serving
+port:    5000
+host:    127.0.0.1
+baseurl: ""
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+# Site
+author: "SaliproPham"
+stitle: "SaliproPham"
+keywords: "SaliproPham, SaliproPhạm, salipro phạm, salipro, sali, blogit.info, salipropham resume, salipropham portfolio, salipropham service"

@@ -1,0 +1,56 @@
+---
+layout: default
+title: Portfolio
+desc: My name is SaliproPham, this is Portfolio where I store and share my projects.
+---
+
+<div id="portfolio" class="fluid-block">
+    <div class="color-line"></div>
+    <div class="nav-menu at-page">
+        <ul class="list-unstyled animating bounce-in">
+            <li>
+                <a href="/" title="Home"><i class="fa fa-home"></i></a></li>
+            </li>
+            <li>
+                <a href="/about.html" title="About me"><i class="fa fa-user"></i></a></li>
+            </li>
+            <li>
+                <a href="/resume.html" title="Resume"><i class="fa fa-history"></i></a></li>
+            </li>
+            <li>
+                <a href="http://blogit.info" title="Blog"><i class="fa fa-link"></i></a></li>
+            </li>
+        </ul>
+    </div>
+    <section class="body animating fade-in">
+        <div class="container relative-section">
+            <div class="row">
+                <div class="section-title">
+                    <h2>portfolio</h2>
+                    <span class="border"></span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div id="testimonials"  class="owl-carousel owl-theme">
+                    {% for project in site.data.projects %}
+                    <div class="item">
+                        <div class="box testimonials">
+                            {% if project.url != '' %}
+                                <a href="{{project.url}}" target="_blank"><img src="{{project.screenshot}}" alt="Red Kite"></a>
+                            {% else %}
+                                <img src="{{project.screenshot}}" alt="Red Kite">
+                            {% endif %}
+                            <blockquote>
+                                <p>{{project.desc}}</p>
+                            </blockquote>
+                            <div class="author">{{project.name}}</div>
+                        </div><!-- end .box .testimonials -->
+                    </div>
+                    {% endfor %}
+
+                </div><!-- end #testimonials -->
+            </div>
+        </div>
+    </section>
+</div>
