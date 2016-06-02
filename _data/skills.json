@@ -1,23 +1,27 @@
 [
     {
         "name": "HTML5/CSS3",
-        "level": 92
+        "level": 95
     },
     {
         "name": "JAVASCRIPT",
-        "level": 80
+        "level": 90
     },
     {
         "name": "jQUERY",
-        "level": 86
+        "level": 95
     },
     {
-        "name": "WEBSITE SEO",
-        "level": 78
+        "name": "AngularJS",
+        "level": 85
+    },
+    {
+        "name": "SEO",
+        "level": 90
     },
     {
         "name": "PHP",
-        "level": 89
+        "level": 90
     },
     {
         "name": "NODEJS",
@@ -32,11 +36,20 @@
         "level": 65
     },
     {
+        "name": "MySQL/MSSQL",
+        "level": 90
+    },
+    
+    {
         "name": "PHOTOSHOP",
         "level": 84
     },
     {
         "name": "ILLUSTRATOR",
-        "level": 10
-    }
+        "level": 20
+    },
+    {
+        "name": "English",
+        "level": 80
+    },
 ]
